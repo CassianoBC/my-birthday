@@ -5,18 +5,19 @@
     padding: 12px;
     text-decoration: none;
     font-weight: 700;
+    text-align: center;
 
     &--primary {
         background-color: variables.$buttonColorPrimary;
     }
 
     @media (max-width: 640px) {
-        display: flex;
+        display: block;
         width: 100%;
     }
 
     @media (max-width: 1024px) {
-        display: flex;
+        display: block;
         align-items: center;
     }
 }
