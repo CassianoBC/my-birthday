@@ -1,0 +1,22 @@
+@use '../variables';
+
+.button {
+    font-size: 16px;
+    padding: 12px;
+    text-decoration: none;
+    font-weight: 700;
+
+    &--primary {
+        background-color: variables.$buttonColorPrimary;
+    }
+
+    @media (max-width: 640px) {
+        display: flex;
+        width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+        display: flex;
+        align-items: center;
+    }
+}
