@@ -6,6 +6,7 @@
     <title>My Birthday</title>
     <link rel="shortcut icon" href="./images/Gremio_logo.svg.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -43,7 +44,7 @@
         </div>
     </header>
     <section class="event">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
                 <h2 class="event__details__title">Sobre o local</h2>
                 <p class="event__details__description">
@@ -53,7 +54,46 @@
             <img class="event__image" src="./images/arena_por_fora.jpeg" alt="">
         </div>
     </section>
+    <section class="event event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Necessita apresentar convite?</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quas facilis cum repellendus odit ex voluptas odio a. Tempora blanditiis quis repudiandae laudantium maxime, dicta explicabo harum in a doloribus?
+                </p>
+            </div>
+            <img class="event__image" src="./images/convite_de_aniversario.jpeg" alt="">
+        </div>
+    </section>
+    <section class="event">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Terá bebidas alcoólicas?</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quas facilis cum repellendus odit ex voluptas odio a. Tempora blanditiis quis repudiandae laudantium maxime, dicta explicabo harum in a doloribus?
+                </p>
+            </div>
+            <img class="event__image" src="./images/bebidas.jpeg" alt="">
+        </div>
+    </section>
+    <section class="event event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Aperitivos</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quas facilis cum repellendus odit ex voluptas odio a. Tempora blanditiis quis repudiandae laudantium maxime, dicta explicabo harum in a doloribus?
+                </p>
+            </div>
+            <img class="event__image" src="./images/aperitivos.jpeg" alt="">
+        </div>
+    </section>
+    <div class="footer">
+        <p class="footer__text">
+            <a href="https://github.com/CassianoBC">@Cassiano</a>
+        </p>
+    </div>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
