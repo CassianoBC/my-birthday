@@ -1,4 +1,5 @@
 @use 'hero';
+@use 'event';
 @use 'variables';
 @use 'components/infos-bar';
 @use 'components/button';
@@ -23,5 +24,15 @@
 
     @media (max-width: 1024px) {
         max-width: 90%;
+    }
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: variables.$colorTextSecundary;
+
+    a {
+        text-decoration: none;
     }
 }

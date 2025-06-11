@@ -1,0 +1,58 @@
+@use 'variables';
+
+.gradient {
+    background-image: linear-gradient(variables.$colorblue1, variables.$colorblue2);
+}
+
+.event {
+    padding: 80px 0;
+
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__details {
+
+        &__title {
+            font-size: 18px;
+            margin-bottom: 16px;
+            font-weight: bold;
+        }
+
+        &__description {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    &__image {
+        max-width: 360px;
+    }
+
+    @media (max-width: 640) {
+        .container {
+            display: block;
+            text-align: center;
+        }
+
+        &__image {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+        }
+
+        &__details {
+
+            &__description {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
