@@ -31,4 +31,8 @@
     padding: 20px 0;
     text-align: center;
     background-color: variables.$colorTextSecundary;
+
+    a {
+        text-decoration: none;
+    }
 }
